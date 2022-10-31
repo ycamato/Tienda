@@ -1,0 +1,53 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: #ff920a;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 59px;
+}
+
+form {
+    width: 520px;
+    height: 460px;
+    background: yellow;
+    margin-left: 410px;
+    margin-top: 22px;
+}
+
+.doc {
+    margin-left: 66px;
+    text-align: center;
+}
+
+.nom {
+    margin-left: 18px;
+    text-align: center;
+}
+
+.apel {
+    margin-left: 14px;
+    text-align: center;
+}
+
+.tel {
+    margin-left: 83px;
+    text-align: center;
+}
+
+.dir {
+    margin-left: 76px;
+    text-align: center;
+}

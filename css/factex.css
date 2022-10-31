@@ -1,0 +1,225 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: #ff920a;
+}
+
+#logotipo {
+    width: 420px;
+    height: 180px;
+    margin-left: 460px;
+}
+
+img {
+    width: 400px;
+    height: 180px;
+}
+
+.fecha {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: 800;
+    margin-top: 12px;
+}
+
+.fac {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.usu {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.dato {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.separado {
+    margin-left: 470px;
+    margin-top: 12px;
+}
+
+td {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.id {
+    margin-left: 10px;
+    width: 240px;
+    text-align: center;
+}
+
+#bus {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+    background-color: #f3c5bd;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #207ce5;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 180px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#bus:hover {
+    background: #FF3333;
+}
+
+.dat {
+    margin-left: 470px;
+    margin-top: 12px;
+}
+
+.nom {
+    margin-left: 56px;
+    text-align: center;
+}
+
+.iden {
+    margin-left: 18px;
+    text-align: center;
+}
+
+.ap {
+    margin-left: 53px;
+    text-align: center;
+}
+
+.tel {
+    margin-left: 52px;
+    text-align: center;
+}
+
+.dir {
+    margin-left: 45px;
+    text-align: center;
+}
+
+.ven {
+    margin-left: 47px;
+    text-align: center;
+}
+
+.agre {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.final {
+    margin-left: 470px;
+    margin-top: 12px;
+}
+
+.cargar {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+17,6199c7+50,3a84c3+51,419ad6+59,4bb8f0+71,3a8bc2+84,26558b+100;Blue+Gloss */
+    background-color: #cedbe9;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #cedbe9 0%, #aac5de 17%, #6199c7 50%, #3a84c3 51%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cedbe9 0%, #aac5de 17%, #6199c7 50%, #3a84c3 51%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cedbe9 0%, #aac5de 17%, #6199c7 50%, #3a84c3 51%, #419ad6 59%, #4bb8f0 71%, #3a8bc2 84%, #26558b 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #207ce5;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cargar:hover {
+    background: #0D47A1;
+}
+
+.cerrar {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9dd53a+0,a1d54f+50,80c217+51,7cbc0a+100;Green+Gloss+%231 */
+    background-color: #9dd53a;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #207ce5;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: -29px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cerrar:hover {
+    background: #26A10D;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 410px;
+}
+
+table.separado {
+    border-collapse: collapse;
+}

@@ -1,0 +1,42 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: #3498DB;
+}
+
+img {
+    width: 1068px;
+    height: 670.6px;
+    position: absolute;
+    margin-left: 296.9px;
+    margin-top: -22px;
+}
+
+.boton {
+    width: 214px;
+    height: 88px;
+    margin-top: 250px;
+    margin-left: 22px;
+    background: #FCCD3F;
+    border-radius: 18px;
+}
+
+.boton a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.boton:hover {
+    color: #1883ba;
+    background-color: #FF8000;
+    border-radius: 18px;
+}

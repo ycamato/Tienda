@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: #ff920a;
+}
+
+#logotipo {
+    width: 420px;
+    height: 180px;
+    margin-left: 460px;
+}
+
+img {
+    width: 400px;
+    height: 180px;
+}
+
+.datos {
+    margin-left: 470px;
+    margin-top: 12px;
+    border: 1px solid black;
+    width: 360px;
+}
+
+td {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+.nom {
+    margin-left: 61px;
+    text-align: center;
+}
+
+.ap {
+    margin-left: 57px;
+    text-align: center;
+}
+
+.iden {
+    margin-left: 18px;
+    text-align: center;
+}
+
+.tel {
+    margin-left: 52px;
+    text-align: center;
+}
+
+.dir {
+    margin-left: 45px;
+    text-align: center;
+}
+
+.ven {
+    margin-left: 52px;
+    text-align: center;
+}
+
+.prod {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.entrada {
+    margin-left: 470px;
+    margin-top: 12px;
+    border: 1px solid black;
+    width: 360px;
+}
+
+.buscar {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+    background-color: #f3c5bd;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #207ce5;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: -23px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buscar:hover {
+    background: #E3301B;
+}
+
+.cuenta {
+    margin-left: 470px;
+    margin-top: 12px;
+    border: 1px solid black;
+    width: 360px;
+}
+
+.nombre {
+    max-width: 105px;
+    text-align: center;
+}
+
+.precio {
+    max-width: 105px;
+    text-align: center;
+}
+
+.cantidad {
+    max-width: 110px;
+    text-align: center;
+}
+
+.agregar {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+    background-color: rgb(191, 210, 85);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(191, 210, 85, 1) 0%, rgba(142, 185, 42, 1) 50%, rgba(114, 170, 0, 1) 51%, rgba(158, 203, 45, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(191, 210, 85, 1) 0%, rgba(142, 185, 42, 1) 50%, rgba(114, 170, 0, 1) 51%, rgba(158, 203, 45, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(191, 210, 85, 1) 0%, rgba(142, 185, 42, 1) 50%, rgba(114, 170, 0, 1) 51%, rgba(158, 203, 45, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #207ce5;
+    color: white;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-top: 1px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.agregar:hover {
+    background: #18A51A;
+}
+
+.facturacion {
+    margin-left: 470px;
+    margin-top: 12px;
+    border: 1px solid black;
+    width: 360px;
+}
+
+.mensaje {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #fff;
+}
+
+.facturar {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+    background-color: rgb(59, 103, 158);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(59, 103, 158, 1) 0%, rgba(43, 136, 217, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #207ce5;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 23px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.facturar:hover {
+    background: #4299FF;
+}
+
+.volver {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+50,ff6600+76,c72200+97 */
+    background-color: #f3c5bd;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 50%, #ff6600 76%, #c72200 97%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 50%, #ff6600 76%, #c72200 97%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f3c5bd 0%, #e86c57 50%, #ea2803 50%, #ff6600 76%, #c72200 97%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #e73827;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.volver:hover {
+    background: #e73827;
+}

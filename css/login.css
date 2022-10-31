@@ -1,0 +1,102 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: #3498DB;
+}
+
+form {
+    width: 520px;
+    height: 648px;
+    background: yellow;
+    position: absolute;
+    left: 846px;
+    top: 0px;
+}
+
+.login {
+    width: 520px;
+    height: 255px;
+    background: orange;
+}
+
+.imag {
+    width: 320px;
+    height: 210px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    margin-top: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.for {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    margin-left: 160px;
+    top: -22px;
+}
+
+.input {
+    width: 355px;
+    height: 29px;
+    margin-top: 25px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.submit {
+    width: 256px;
+    height: 45px;
+    border-radius: 18px;
+    margin-left: 140px;
+    margin-top: 25px;
+    background: #3498DB;
+    border-color: #3498DB;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.submit:hover {
+    color: #1883ba;
+    background-color: #FF8000;
+}
+
+.btn {
+    width: 256px;
+    height: 45px;
+    border-radius: 18px;
+    margin-left: 140px;
+    margin-top: 15px;
+    background: #66FF33;
+    border-color: #66FF33;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    color: #9CCC65;
+    background-color: #9CCC65;
+    text-decoration: none;
+}

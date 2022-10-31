@@ -1,0 +1,73 @@
+@import url('reset.css');
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: #ff920a;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #ffff;
+    margin-top: 27px;
+}
+
+form {
+    padding: 50px;
+    max-width: 300px;
+    background-color: #fff;
+    margin-top: 22px;
+    margin: 21px auto;
+}
+
+form input {
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 0.5px #525c66 solid;
+    color: black;
+    font-size: 18px;
+    resize: none;
+}
+
+.btn {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+    background-color: #f3c5bd;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #ea2803;
+    color: white;
+    width: 210px;
+    height: 34px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 7px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #E3301B;
+}
